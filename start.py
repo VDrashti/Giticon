@@ -28,7 +28,7 @@ st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 # )
 hide_github_icon = """
 <style>
-.css-1l04j3h,.css-ztfz8.ef3psqc4{
+.css-1l04j3h,.css-1wbqy5l{
     display: none !important;
 }
 </style>
