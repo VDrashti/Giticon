@@ -10,7 +10,14 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from python.snowpatrol import constants
 
-
+hide_github_icon = """
+<style>
+.css-1l04j3h,.css-30do4w{
+    display: none !important;
+}
+</style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 class SnowpatrolDataModel:
     st.markdown(
     """
