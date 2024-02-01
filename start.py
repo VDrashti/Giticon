@@ -26,7 +26,12 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+hide_github_icon = """
+#MainMenu {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 def build_snowpark_session(kwargs) -> Session:
     try:
         res=Session.builder.configs({
