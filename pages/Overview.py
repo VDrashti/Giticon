@@ -21,6 +21,17 @@ import Export_Data
 from st_clickable_images import clickable_images
 import base64
 
+
+
+hide_github_icon = """
+<style>
+.css-1l04j3h,.css-30do4w{
+    display: none !important;
+}
+</style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 st.markdown(
     """
     <style>
