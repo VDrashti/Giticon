@@ -9,6 +9,16 @@ import re
 #   Utility functions
 #
 #################################
+
+hide_github_icon = """
+<style>
+.css-1l04j3h,.css-30do4w{
+    display: none !important;
+}
+</style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 def insert_img(img_file: str, caption:str):
     image = Image.open(img_file)
     st.image(image, caption=caption)
