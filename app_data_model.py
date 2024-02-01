@@ -9,12 +9,8 @@ import streamlit as st
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from python.snowpatrol import constants
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
+
 class SnowpatrolDataModel:
     st.markdown('<style>div.block-container{padding-top:2rem;}</style>',unsafe_allow_html=True) 
     def __init__(self, session: Session) -> None:
