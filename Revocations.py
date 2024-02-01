@@ -48,12 +48,7 @@ import base64
 #             st.info(f":+1: Connected to {SNOWPARK_SESSION.get_current_account()} as your default role - {SNOWPARK_SESSION.get_current_role()}")
 #         else:
 #             st.error(":warning: Missing fields")
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 @st.cache_data
 def get_available_roles_for_user():
     return st.session_state['sdm'].get_available_roles()
