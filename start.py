@@ -14,21 +14,21 @@ sys.path.append(str(project_home))
 
 st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 
-st.markdown(
-    """
-    <style>
-    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
-    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
-    .viewerBadge_text__1JaDK {
-        display: none;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+#     .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+#     .viewerBadge_text__1JaDK {
+#         display: none;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 hide_github_icon = """
 <style>
-.css-1l04j3h,.css-1wbqy5l{
+.css-1l04j3h,.css-ztfz8.ef3psqc4{
     display: none !important;
 }
 </style>
